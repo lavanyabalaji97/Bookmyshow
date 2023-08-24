@@ -1,0 +1,114 @@
+.footer {
+    background-color: #313035;
+}
+
+.footer .btn-danger {
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.footer .houseimage{
+    width: 35px;
+}
+.footer p{
+    padding-top: 24px;
+    
+}
+
+.footer2 {
+    background-color: #404043;
+}
+
+.info-links {
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.info-links p {
+    font-size: 12px;
+
+}
+
+.icon-text {
+    padding-top: 11px;
+    position: relative;
+    right: 50px;
+    color: white;
+}
+
+.movies-section a {
+    text-decoration: none;
+    /* color: white; */
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+
+.movies-links {
+    border-right: 1px rgb(127, 127, 127);
+
+}
+
+.footer3 {
+    background-color: #333338;
+    color: rgb(127, 127, 127);
+
+}
+
+.footer3 .movies-section p {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(165, 165, 165);
+}
+
+.footer3 .movies-section a {
+    color: rgb(127, 127, 127);
+    border-right: 1px solid rgb(127, 127, 127);
+    padding-right: 5px;
+    font-size: 11px;
+    margin: 0px 5px 5px 0px;
+
+}
+.footer3 a:last-of-type{
+    border-right: none;
+}
+
+.footer3 .movies-section a:hover {
+    color: white;
+    transition: color 0.25s ease-in-out;
+}
+
+.footer3 svg {
+    border-radius: 20px;
+    color: rgb(127, 127, 127);
+
+}
+
+.footer3 svg:hover {
+    color: white;
+}
+
+.footer3 .footer-end {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.info-icons p {
+    color: rgb(127, 127, 127);
+}
+
+.info-links svg:hover {
+    color: white;
+}
+
+.info-icons p:hover {
+    color: white;
+}
+.footer2 svg{
+   color: #333338;
+}
+.footer2:hover svg{
+    color: white;
+}

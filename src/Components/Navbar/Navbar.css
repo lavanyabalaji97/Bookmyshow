@@ -1,0 +1,29 @@
+.Navbar {
+    background-color: #333545;
+}
+
+.Navbar .navbar-item a{
+    color: white;
+}
+
+.Navbar .btn-danger{    
+        font-size: 14px;
+        padding: 5px 13px;
+}
+.Navbar svg{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 13px;
+}
+.Navbar input{
+    padding-left: 35px;
+}
+.Navbar .navbar-toggler{
+    position: absolute;
+    top: 1px;
+}
+.Navbar input{
+    width: 550px;
+    border-radius: 3px;
+}

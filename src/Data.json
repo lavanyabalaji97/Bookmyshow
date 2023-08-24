@@ -1,0 +1,398 @@
+{
+    "Movies": [
+        {
+            "id": 1,
+            "image": "/Asserts/Jailer.avif",
+            "title": "Jailer",
+            "paragraph": "Action/Drama/Thriller"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/dd returns.avif",
+            "title": "DD Returns",
+            "paragraph": "Comedy/Horror"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/gardar.avif",
+            "title": "Gardar:The Katha Continues",
+            "paragraph": "Action/Drama/Period"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/OMg2.avif",
+            "title": "OMG",
+            "paragraph": "Comedy/Drama"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/Bholashankar.avif",
+            "title": "Bhola Shankar",
+            "paragraph": "Action/Drama"
+        }
+    ],
+    "Movies1": [
+        {
+            "id": 6,
+            "image": "/Asserts/RockyRani.avif",
+            "title": "Rocky Aur Rani Kii Prem Kahaani",
+            "paragraph": "comedy/Family/Romantic"
+        },
+        {
+            "id": 7,
+            "image": "/Asserts/MEG2.avif",
+            "title": "Meg2:The Trench",
+            "paragraph": "Action/Adventure/Sci-Fi"
+        },
+        {
+            "id": 8,
+            "image": "/Asserts/openheimer.avif",
+            "title": "oppenheimer",
+            "paragraph": "Biography/Drame/Historical"
+        },
+        {
+            "id": 9,
+            "image": "/Asserts/Barbie.avif",
+            "title": "Barbie",
+            "paragraph": "Adventure/Comedy/Fantasy"
+        },
+        {
+            "id": 10,
+            "image": "/Asserts/Mission.avif",
+            "title": "Mission imposible:Dead Reckoning-part one",
+            "paragraph": "Action/Adventure/Thriller"
+        }
+    ],
+    "Events": [
+        {
+            "id": 1,
+            "image": "/Asserts/workshop.avif"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/kidszone.avif"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/comedyshow.avif"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/musicshows.avif"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/esportscentre.avif"
+        }
+    ],
+    "Events2": [
+        {
+            "id": 6,
+            "image": "/Asserts/upskill.avif"
+        },
+        {
+            "id": 7,
+            "image": "/Asserts/interactive.avif"
+        },
+        {
+            "id": 8,
+            "image": "/Asserts/craft.avif"
+        },
+        {
+            "id": 9,
+            "image": "/Asserts/theatre.avif"
+        },
+        {
+            "id": 10,
+            "image": "/Asserts/dance.avif"
+        }
+    ],
+    "premiere": [
+        {
+            "id": 1,
+            "image": "/Asserts/followme.avif",
+            "title": "Follow Me",
+            "paragraph": "English"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/queens.avif",
+            "title": "somewhere in Queen",
+            "paragraph": "English"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/control.avif",
+            "title": "control",
+            "paragraph": "English"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/return.avif",
+            "title": "Return to seoul",
+            "paragraph": "English"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/stories.avif",
+            "title": "stories in work",
+            "paragraph": "English"
+        }
+    ],
+    "premiere1": [
+        {
+            "id": 7,
+            "image": "/Asserts/followme.avif",
+            "title": "Follow Me",
+            "paragraph": "English"
+        },
+        {
+            "id": 8,
+            "image": "/Asserts/queens.avif",
+            "title": "Follow Me",
+            "paragraph": "English"
+        },
+        {
+            "id": 9,
+            "image": "/Asserts/control.avif",
+            "title": "Follow Me",
+            "paragraph": "English"
+        },
+        {
+            "id": 10,
+            "image": "/Asserts/return.avif",
+            "title": "Follow Me",
+            "paragraph": "English"
+        },
+        {
+            "id": 11,
+            "image": "/Asserts/stories.avif",
+            "title": "Follow Me",
+            "paragraph": "English"
+        }
+    ],
+    "online": [
+        {
+            "id": 1,
+            "image": "/Asserts/dating.avif",
+            "title": "bling dating 30+-florican",
+            "paragraph": "watch on zoom"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/speeddating.avif",
+            "title": "weWet speed dating",
+            "paragraph": "watch on zoom"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/physics.avif",
+            "title": "Talk session in physics(ft.wade Allison)",
+            "paragraph": "watch on zoom"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/architect.avif",
+            "title": "Talk session in Architecture(ft.Dennis...",
+            "paragraph": "watch on zoom"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/englishsociety.avif",
+            "title": "Talk Session in English (Ft. Dr Leonardo O.Reis)",
+            "paragraph": "watch on zoom"
+        }
+    ],
+    "outdoor": [
+        {
+            "id": 1,
+            "image": "/Asserts/motogp.avif",
+            "title": "MotoGP Bharat 2023",
+            "paragraph": "Buddha international circuit:Greater Noida "
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/annamala.avif",
+            "title": "Annamala vandhuttan Da!!! by TanglishComedy ",
+            "paragraph": "Backyard:cheanni"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/neeela.avif",
+            "title": "Neela Bhoomi",
+            "paragraph": "Media-The stage, Alwarpet"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/snowkingdom.avif",
+            "title": "Vgp:universal kingdom:chennai",
+            "paragraph": "watch on zoom"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/indiatour.avif",
+            "title": "sunburn Arena Ft.Dimitri vegas & Like Mike-chennai",
+            "paragraph": "venue to Be Announced  :chennai"
+        }
+    ],
+    "laughter": [
+        {
+            "id": 1,
+            "image": "/Asserts/annamala.avif",
+            "title": "Annamala vandhuttan Da!!! by TanglishComedy ",
+            "paragraph": "Backyard:cheanni"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/sense.avif",
+            "title": "Nothing makes sense Ft.Hover grover",
+            "paragraph": "Rasika Ranjani sabha:chennai"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/hysterical.avif",
+            "title": "The Hysterical improven show",
+            "paragraph": "IDAM-The Art and cultural..."
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/familyman.avif",
+            "title": "praveen kumar-Family  Man Returns",
+            "paragraph": "Rasika Ranjani sabha:chennai"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/ann.avif",
+            "title": "AANSPLANNING by karthick kumar-Tour...",
+            "paragraph": "Media-The stage, Alwarpet"
+        }
+    ],
+    "popular": [
+        {
+            "id": 1,
+            "image": "/Asserts/annamala.avif",
+            "title": "Annamala vandhuttan Da!!! by TanglishComedy ",
+            "paragraph": "Backyard:chennai"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/chai.avif",
+            "title": "When chai Met Toast-Love You The same |chennai ",
+            "paragraph": "Backyard:chennai"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/classiscult.avif",
+            "title": "Musicuento-classicult the band",
+            "paragraph": "idam-The art & cultural space:chennai"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/ga.avif",
+            "title": "Annamala vandhuttan Da!!! by TanglishComedy ",
+            "paragraph": "Backyard:chennai"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/discover.avif",
+            "title": "play 'N' Learn vr mall chennai",
+            "paragraph": "play n learn,vr mall:chennai"
+        }
+    ],
+    "latest": [
+        {
+            "id": 1,
+            "image": "/Asserts/speaking.avif",
+            "title": "Relatively speaking",
+            "paragraph": "English"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/garde.avif",
+            "title": "Avant Garde-Art theatre play Edition I(part 1)",
+            "paragraph": "English/Tamil"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/spotlight.avif",
+            "title": "spotLight edition 4",
+            "paragraph": "English/Tamil"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/chai.avif",
+            "title": "chai Trails with T-Nagar",
+            "paragraph": "English"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/elephant.avif",
+            "title": "Elephant in the Room",
+            "paragraph": "English"
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "image": "/Asserts/motogp.avif",
+            "title": "MotoGP Bharat 2023",
+            "paragraph": "Buddha international circuit:Greater Noida "
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/social.avif",
+            "title": "General social Marathon 2023 (4Th...",
+            "paragraph": "Olcott Memorial High School:chennai"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/freedom.avif",
+            "title": "Freedom Virtual Run-Get Medal Throphy by courier ",
+            "paragraph": "Backyard:cheanni"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/chess.avif",
+            "title": "online game-Lost the treasure of sundarbans",
+            "paragraph": "online(play from Home)"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/treasure.avif",
+            "title": "online Game-Flight 9032 Murder Mystery",
+            "paragraph": "online(play from Home)"
+        }
+    ],
+    "explore": [
+        {
+            "id": 1,
+            "image": "/Asserts/feel.avif",
+            "title": "Wonderla Amusement park kochi",
+            "paragraph": "Wonderla:kochi"
+        },
+        {
+            "id": 2,
+            "image": "/Asserts/mystery.avif",
+            "title": "Mystery Rooms-chennai ",
+            "paragraph": "Mystery Rooms:chennai"
+        },
+        {
+            "id": 3,
+            "image": "/Asserts/masti.avif",
+            "title": "iMagicaa Theme park",
+            "paragraph": "imagica Theme park (Khopoli):Mumbai"
+        },
+        {
+            "id": 4,
+            "image": "/Asserts/shimla.avif",
+            "title": "Explore shimla-manali(5 Nights/6 Days)",
+            "paragraph": "Meeting point:Outside Delhi airport"
+        },
+        {
+            "id": 5,
+            "image": "/Asserts/india.avif",
+            "title": "My tirth India",
+            "paragraph": "prasad from Kashi"
+        }
+    ]
+}

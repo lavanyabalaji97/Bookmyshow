@@ -1,0 +1,10 @@
+.list-items{
+    background-color: #222539;
+}
+.list-items li{
+    list-style-type: none;;
+}
+.list-items li a{
+    text-decoration: none;
+    color: white;
+}

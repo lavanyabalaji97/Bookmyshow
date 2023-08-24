@@ -1,0 +1,21 @@
+.premiere .padding {
+    padding: 0px 150px;
+}
+
+.premiere h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 13px;
+
+}
+
+.premiere p {
+    color: white;
+    padding-left: 13px;
+}
+
+.premiere h3 {
+    padding-left: 10px;
+    font-weight: 600;
+}
