@@ -2,28 +2,104 @@
     background-color: #333545;
 }
 
-.Navbar .navbar-item a{
+.Navbar .navbar-item a {
     color: white;
 }
 
-.Navbar .btn-danger{    
-        font-size: 14px;
-        padding: 5px 13px;
+.Navbar .btn-danger {
+    font-size: 14px;
+    padding: 5px 13px;
 }
-.Navbar svg{
-    position: relative;
-    top: 10px;
-    left: 20px;
+
+.Navbar .search-icon {
+    top: 12px;
+    left: 10px;
     width: 13px;
 }
-.Navbar input{
+
+.Navbar input {
     padding-left: 35px;
 }
-.Navbar .navbar-toggler{
+
+.Navbar .navbar-toggler {
     position: absolute;
     top: 1px;
 }
-.Navbar input{
+
+.Navbar input {
     width: 550px;
     border-radius: 3px;
+}
+
+.Navbar .signin {
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.sign-socials {
+    border: 1px solid black;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 331px;
+    margin: 20px auto;
+}
+
+.sign-socials:hover {
+    background: rgb(242, 242, 242)  ;  
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.signin-number {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.signin-number:focus {
+    outline: none;
+}
+
+.sign-icons {
+    top: 12px;
+    left: 12px;
+}
+
+.signin-fields .position-absolute {
+    left: 94px;
+    top: 15px;
+}
+
+.signin-number {
+    margin-left: 10px;
+    
+}
+
+.terms-conditions p {
+    padding-top: 125px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .Navbar input {
+        width: 400px;
+    }
+
+    .Navbar .signin {
+        padding: 4px 15px;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+
+    .Navbar .search-icon {
+        position: relative;
+        top: 29px;
+        left: 60x;
+        width: 13px;
+    }
+
 }

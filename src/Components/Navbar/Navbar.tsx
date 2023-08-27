@@ -1,20 +1,25 @@
 import '../Navbar/Navbar.css';
-import bookmyshow from '../../Asserts/bookmyshow.jpg'
+import Logo from './Logo';
+import { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
+import { Search,Envelope, Apple } from "react-bootstrap-icons";
 
 function Navbar() {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <div className='Navbar'>
             <div className="container p-3">
-                <div className="row d-flex justify-content-between">
-                    <div className="col-lg-6 d-flex">
-                        <form className="d-flex" role="search">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                            </svg>
-                            <input className="form-control" type="search"  placeholder="Search for Movies,Events,plays,sports and Activities" aria-label="Search" />
+                <div className="row d-md-flex justify-content-between">
+                    <div className="col-md-9 col-lg-8 d-flex gap-3">
+                        <Logo />
+                        <form className="d-flex position-relative" role="search">
+                            <Search className='position-absolute sign-icons' />
+                            <input className="form-control" type="search" placeholder="Search for Movies,Events,plays,sports and Activities" aria-label="Search" />
                         </form>
                     </div>
-                    <div className='col-lg-3 d-flex'>
+                    <div className='col-md-3 d-flex gap-2'>
                         <div className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Chennai
@@ -27,7 +32,39 @@ function Navbar() {
                             </ul>
                         </div>
                         <div>
-                            <button type="button" className="btn btn-danger">Sign in</button>
+                            <Modal show={show} onHide={handleClose}>
+                                <Modal.Header closeButton>
+                                    <Modal.Title className='ms-auto fs-6 fw-semibold'>Get Started</Modal.Title>
+                                </Modal.Header>
+                                <Modal.Body>
+                                    <div>
+                                        <div className='signin-fields position-relative'>
+                                            <img src="https://in.bmscdn.com/webin/common/icons/googlelogo.svg" className='position-absolute' alt="" />
+                                            <p className='sign-socials'>Continue With Google</p>
+                                        </div>
+                                        <div className='signin-fields position-relative'>
+                                            <Envelope className='position-absolute' />
+                                            <p className='sign-socials'>Continue With Email</p>
+                                        </div>
+                                        <div className='signin-fields position-relative'>
+                                            <Apple className='position-absolute' />
+                                            <p className='sign-socials'>Continue With Apple</p>
+                                        </div>
+                                        <p className='text-center p-4'>OR</p>
+                                    </div>
+                                    <form action="">
+                                        <div className='d-flex justify-content-center align-items-center'>
+                                            <img src='https://in.bmscdn.com/webin/common/icons/indianflag.svg' alt="" />
+                                            <span>+91</span>
+                                            <input type="tel" className='w-50 signin-number' placeholder='Continue With mobile number' />
+                                        </div>
+                                    </form>
+                                    <div className='terms-conditions'>
+                                        <p>I agree to the <a href="" className='text-dark'>Terms & conditions</a> &<a href="" className='text-dark'>privacy policy</a></p>
+                                    </div>
+                                </Modal.Body>
+                            </Modal>
+                            <button type="button" onClick={handleShow} className="btn btn-danger signin">Sign in</button>
                         </div>
                         <div>
                             <nav className="navbar">
@@ -61,7 +98,6 @@ function Navbar() {
                                                     </ul>
                                                 </li>
                                             </ul>
-                                         
                                         </div>
                                     </div>
                                 </div>

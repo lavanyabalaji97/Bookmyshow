@@ -4,9 +4,9 @@ function Trending() {
     return (
         <div className='Trending container'>
             <div className="row">
-                <div className="col-lg-12">
+                <div className="col-md-12 col-12">
                     <h2>Trending Searches Right Now</h2>
-                    <div className='d-flex gap-3'>
+                    <div className='d-flex flex-wrap gap-3'>
                         <div className='movies'>
                             <a href="">
                                 <h5>Jailer</h5>
@@ -55,8 +55,6 @@ function Trending() {
                                 <p>movies</p>
                             </a>
                         </div>
-                    </div>
-                    <div className='col-lg-12 d-flex gap-3 mt-3'>
                         <div className='movies'>
                             <a href="">
                                 <h5>saalar</h5>
@@ -70,6 +68,7 @@ function Trending() {
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

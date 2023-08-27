@@ -79,13 +79,13 @@
     transition: color 0.25s ease-in-out;
 }
 
-.footer3 svg {
+.footer3 .social-icons {
     border-radius: 20px;
     color: rgb(127, 127, 127);
 
 }
 
-.footer3 svg:hover {
+.footer3 .social-icons:hover {
     color: white;
 }
 
@@ -99,16 +99,16 @@
     color: rgb(127, 127, 127);
 }
 
-.info-links svg:hover {
+.info-links .queries-icons:hover {
     color: white;
 }
 
 .info-icons p:hover {
     color: white;
 }
-.footer2 svg{
+.footer2 .queries-icons{
    color: #333338;
 }
-.footer2:hover svg{
+.footer2:hover .queries-icons{
     color: white;
 }

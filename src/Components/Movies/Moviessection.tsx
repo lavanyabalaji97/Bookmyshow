@@ -1,11 +1,12 @@
 
 import '../Movies/Movies.css'
 import data from '../../Data.json'
-
+import icici from '../../Asserts/icici.avif'
 function Moviessection() {
     return (
         <div className='movies container p-3'>
             <div className="row">
+                <img src={icici} alt="" className='p-4' />
                 <div className="col-lg-12">
                     <div className='d-flex justify-content-between'>
                     <h2>Recommended movies</h2>
